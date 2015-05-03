@@ -1,0 +1,48 @@
+/*----------------------------------
+ OpenClassrooms : Cours Git & GitHub
+ Memo des commandes pour git
+ auteur : Liciax
+------------------------------------*/
+//////////////////////////////////////////////////////
+/*--------------------------------------------------*/
+Initialiser un dossier comme dépôt Git
+	-> git init
+	
+/*--------------------------------------------------*/
+Ajout d'un fichier à l'index
+(liste des fichiers gardés en mémoire par git)
+	-> git add <nom_fichier>
+Ajout de tous les fichiers dans l'index
+	-> git add .
+
+Envoi des modifications à git
+	-> git commit -m "mon message"
+option -a : ajouter les fichiers déjà dans l'index au commit
+
+/*--------------------------------------------------*/
+Voir le status des fichiers contenus dans le dossier
+	-> git status
+
+/*--------------------------------------------------*/
+Voir l'historique des commits (avec le SHA)
+	-> git log
+
+Se positionner sur un commit passé
+	-> git checkout <SHA>
+Pour revenir sur le code actuel
+	-> git checkout master
+
+/*--------------------------------------------------*/
+Envoyer ses commits sur un environnement extérieur (remote)
+	-> git remote
+Cloner un repository entier de GitHub sur sa machine
+	-> git clone <URL_sur_GitHub>
+	
+/*--------------------------------------------------*/
+Envoyer ses commits sur GitHub
+(origin : nom du remote par defaut, master : branche principale)
+	-> git push origin master
+Récupérer des modifications de GitHub sur son ordinateur
+	-> git pull origin master
+	
+/*--------------------------------------------------*/

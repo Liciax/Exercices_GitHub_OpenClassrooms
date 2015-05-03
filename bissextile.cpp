@@ -14,10 +14,10 @@ using namespace std;
 
 int main()
 {
-	//variables
+	//variable
 	int annee;
 	
-	cout << "Saisir une année : " << endl;
+	cout << "Saisir une année : ";
 	cin >> annee;
 	
 	if ((annee % 400 == 0)||((annee % 4 == 0)&&(annee % 100 != 0))) {
